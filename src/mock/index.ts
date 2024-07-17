@@ -227,9 +227,11 @@ export async function startMock() {
   mock.onGet(/video\/my/).reply(async (config) => {
     const page = getPage2(config.params)
     if (!userVideos.length) {
-      // let r = await fetch(BASE_URL + '/data/user-71158770.json')
+      // const r = await fetch(BASE_URL + '/data/user-71158770.json')
       // let r = await fetch(BASE_URL + '/data/user-8357999.json')
-      const r = await _fetch(BASE_URL + '/data/user_video_list/user-12345xiaolaohu.md')
+      // const r = await _fetch(BASE_URL + '/data/user_video_list/user-12345xiaolaohu.md')
+
+      const r = await _fetch(BASE_URL + '/data/user_video_list/user12345xiaobaitu.json')
       const list = await r.json()
       const baseStore = useBaseStore()
       const userList = cloneDeep(baseStore.users)

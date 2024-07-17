@@ -1,0 +1,53 @@
+
+{
+  "status_code": 0,
+  "user_info": {
+    "short_id": "2053152590",
+    "nickname": "𝓐𝓷𝓭𝔂 ☂゛",
+    "signature": "爱意东升西落，浪漫至死不渝。",
+    "avatar_thumb": {
+      "uri": "aweme-avatar/tos-cn-i-0813_o0ASw98b9lDRGNAzCXniXXeSAfc0gANIK1SAQA",
+      "url_list": [
+        "https://p3-sign.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_o0ASw98b9lDRGNAzCXniXXeSAfc0gANIK1SAQA.jpeg?x-expires=1721404800\u0026x-signature=0QdGMguiVXaHMM1LzX2yOwNAdNs%3D\u0026from=2480802190\u0026s=profile\u0026se=false\u0026sc=avatar\u0026l=202407180028039149CCF03E5839516BA9",
+        "https://p9-sign.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_o0ASw98b9lDRGNAzCXniXXeSAfc0gANIK1SAQA.jpeg?x-expires=1721404800\u0026x-signature=vKx7DMT4NHfquT%2FUpYMY7Mnt5Tg%3D\u0026from=2480802190\u0026s=profile\u0026se=false\u0026sc=avatar\u0026l=202407180028039149CCF03E5839516BA9",
+        "https://p26-sign.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_o0ASw98b9lDRGNAzCXniXXeSAfc0gANIK1SAQA.jpeg?x-expires=1721404800\u0026x-signature=beLly8JLROHVCZOgLC8BKsPxV10%3D\u0026from=2480802190\u0026s=profile\u0026se=false\u0026sc=avatar\u0026l=202407180028039149CCF03E5839516BA9"
+      ]
+    },
+    "avatar_medium": {
+      "uri": "aweme-avatar/tos-cn-i-0813_o0ASw98b9lDRGNAzCXniXXeSAfc0gANIK1SAQA",
+      "url_list": [
+        "https://p3-sign.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_o0ASw98b9lDRGNAzCXniXXeSAfc0gANIK1SAQA.jpeg?x-expires=1721404800\u0026x-signature=0QdGMguiVXaHMM1LzX2yOwNAdNs%3D\u0026from=2480802190\u0026s=profile\u0026se=false\u0026sc=avatar\u0026l=202407180028039149CCF03E5839516BA9",
+        "https://p9-sign.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_o0ASw98b9lDRGNAzCXniXXeSAfc0gANIK1SAQA.jpeg?x-expires=1721404800\u0026x-signature=vKx7DMT4NHfquT%2FUpYMY7Mnt5Tg%3D\u0026from=2480802190\u0026s=profile\u0026se=false\u0026sc=avatar\u0026l=202407180028039149CCF03E5839516BA9",
+        "https://p26-sign.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_o0ASw98b9lDRGNAzCXniXXeSAfc0gANIK1SAQA.jpeg?x-expires=1721404800\u0026x-signature=beLly8JLROHVCZOgLC8BKsPxV10%3D\u0026from=2480802190\u0026s=profile\u0026se=false\u0026sc=avatar\u0026l=202407180028039149CCF03E5839516BA9"
+      ]
+    },
+    "follow_status": 0,
+    "aweme_count": 27,
+    "following_count": 100,
+    "favoriting_count": 1000,
+    "total_favorited": "100",
+    "custom_verify": "",
+    "unique_id": "",
+    "verification_type": 0,
+    "original_musician": {
+      "music_count": 0,
+      "music_used_count": 0,
+      "digg_count": 0
+    },
+    "enterprise_verify_reason": "",
+    "mplatform_followers_count": 40,
+    "followers_detail": null,
+    "platform_sync_info": null,
+    "geofencing": null,
+    "policy_version": null,
+    "sec_uid": "MS4wLjABAAAAwDf_tw7oUf8wTyvq9xNwFA6kXoctDbGorrAO0Z3ZkJ4",
+    "type_label": null,
+    "show_favorite_list": true,
+    "card_entries": [],
+    "mix_info": null
+  },
+  "extra": {
+    "now": 1721233683693,
+    "logid": "202407180028039149CCF03E5839516BA9"
+  }
+}

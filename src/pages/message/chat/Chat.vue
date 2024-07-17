@@ -4,8 +4,8 @@
       <div class="header">
         <div class="left">
           <dy-back @click="router.back"></dy-back>
-          <div class="badge">12</div>
-          <span>zzzz</span>
+          <div class="badge">6</div>
+          <span>章若楠</span>
         </div>
         <div class="right">
           <img
@@ -141,7 +141,7 @@
             <img src="../../../assets/img/icon/message/chat/bg-open.png" alt="" class="bg" />
             <div class="wrapper">
               <div class="top">
-                <div class="money">0.01元</div>
+                <div class="money">13.14元</div>
                 <div class="belong">{{ store.userinfo.nickname }}的红包</div>
                 <div class="password">大吉大利</div>
               </div>
@@ -274,6 +274,36 @@ const data = reactive({
       ]
     },
     {
+      type: MESSAGE_TYPE.RED_PACKET,
+      state: AUDIO_STATE.NORMAL,
+      mode: RED_PACKET_MODE.MULTIPLE,
+      data: {
+        money: 5.11,
+        title: '大吉大利',
+        state: '未领取'
+      },
+      time: '2021-01-02 21:21',
+      user: {
+        id: '2739632844317827',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.RED_PACKET,
+      state: AUDIO_STATE.NORMAL,
+      mode: RED_PACKET_MODE.SINGLE,
+      data: {
+        money: 5.11,
+        title: '大吉大利',
+        state: '已过期'
+      },
+      time: '2021-01-02 21:21',
+      user: {
+        id: 1,
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
       type: MESSAGE_TYPE.IMAGE,
       state: AUDIO_STATE.NORMAL,
       data: new URL('../../../assets/img/poster/1.jpg', import.meta.url).href,
@@ -400,7 +430,7 @@ const data = reactive({
     },
     {
       type: MESSAGE_TYPE.TEXT,
-      data: '我找不到了',
+      data: '是麦田那个吗?',
       time: '2021-01-02 21:21',
       user: {
         id: '1',
@@ -409,7 +439,7 @@ const data = reactive({
     },
     {
       type: MESSAGE_TYPE.TEXT,
-      data: '我也找不到了我也找不到了我也找不到了我也找不到了我也找不到了我也找不到了我也找不到了我也找不到了',
+      data: '那个地方叫做稻城',
       time: '2021-01-02 21:21',
       user: {
         id: '2739632844317827',
@@ -420,17 +450,71 @@ const data = reactive({
       type: MESSAGE_TYPE.DOUYIN_VIDEO,
       state: VIDEO_STATE.VALID,
       data: {
-        poster: new URL('../../../assets/img/poster/3.jpg', import.meta.url).href,
+        poster: new URL('../../../assets/img/poster/1.jpg', import.meta.url).href,
         author: {
-          name: 'safasdfassafasdfassafasdfassafasdfas',
+          name: '带你去旅行',
           avatar: new URL('../../../assets/img/icon/head-image.jpeg', import.meta.url).href
         },
-        title: '服了asd'
+        title: '只分享给你'
       },
       time: '2021-01-02 21:21',
       user: {
         id: '1',
         avatar: '../../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '哇,这就是电影里的稻城',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '1',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '真的好漂亮',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '1',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '对8',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '2739632844317827',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '那咱们什么时候去',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '1',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '下周我有空,下周吧',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '2739632844317827',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '期待👌',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '1',
+        avatar: '../../assets/img/icon/head-image.jpg'
       }
     },
     {
@@ -446,14 +530,17 @@ const data = reactive({
       }
     },
     {
-      type: MESSAGE_TYPE.RED_PACKET,
-      state: AUDIO_STATE.NORMAL,
-      mode: RED_PACKET_MODE.MULTIPLE,
-      data: {
-        money: 5.11,
-        title: '大吉大利',
-        state: '未领取'
-      },
+      type: MESSAGE_TYPE.TEXT,
+      data: '香草味的冰淇淋还有吗?',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '1',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '就知道你馋,冰箱里给你屯着呢',
       time: '2021-01-02 21:21',
       user: {
         id: '2739632844317827',
@@ -461,17 +548,56 @@ const data = reactive({
       }
     },
     {
-      type: MESSAGE_TYPE.RED_PACKET,
-      state: AUDIO_STATE.NORMAL,
-      mode: RED_PACKET_MODE.SINGLE,
-      data: {
-        money: 5.11,
-        title: '大吉大利',
-        state: '已过期'
-      },
+      type: MESSAGE_TYPE.TEXT,
+      data: '少吃一点哈',
       time: '2021-01-02 21:21',
       user: {
-        id: 1,
+        id: '1',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '在最下面那层',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '2739632844317827',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '我就吃亿点点',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '1',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '草莓味的也好吃,你可以尝尝',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '2739632844317827',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '你说的没错',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '1',
+        avatar: '../../assets/img/icon/head-image.jpg'
+      }
+    },
+    {
+      type: MESSAGE_TYPE.TEXT,
+      data: '这个确实很好吃',
+      time: '2021-01-02 21:21',
+      user: {
+        id: '1',
         avatar: '../../assets/img/icon/head-image.jpg'
       }
     }

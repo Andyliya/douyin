@@ -63,9 +63,35 @@
             </div>
           </div>
           <!--      消息-->
-                  <div class="message" @click="nav('/message/chat')">
+
+          <div class="message" @click="nav('/message/chat')">
             <div class="avatar on-line">
-              <img src="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_39fcf52965b7b3723f84ee34d139324c~c5_300x300.jpeg?from=2956013662" alt="" class="head-image" />
+              <img
+                src="https://p3-pc.douyinpic.com/img/aweme-avatar/f5d59bdfb9352cfdb5eabddf5ca03bad~c5_300x300.jpeg?from=2956013662"
+                alt=""
+                class="head-image"
+              />
+            </div>
+            <div class="content">
+              <div class="left">
+                <div class="name">
+                  <span>章若楠</span>
+                </div>
+                <div class="detail">这个确实很好吃</div>
+                <div class="right">
+                  <div class="badge">1</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="message" @click="nav('/message/chat')">
+            <div class="avatar on-line">
+              <img
+                src="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_39fcf52965b7b3723f84ee34d139324c~c5_300x300.jpeg?from=2956013662"
+                alt=""
+                class="head-image"
+              />
             </div>
             <div class="content">
               <div class="left">
@@ -73,23 +99,27 @@
                   <span>GEM鄧紫棋</span>
                 </div>
                 <div class="detail">
-                  来吧,票都给你准备好了
+                  这个旋律怎么样😢
                   <div class="point"></div>
-                  10-10
+                  07-18
                 </div>
               </div>
               <div class="right">
                 <!--                          <div class="not-read"></div>-->
                 <!--                          <img class="camera" src="../../assets/img/icon/close-white.png" alt="">-->
                 <!--            <img class="arrow" src="../../assets/img/icon/close-white.png" alt="">-->
-                <div class="badge">2</div>
+                <div class="badge">3</div>
               </div>
             </div>
           </div>
 
           <div class="message" @click="nav('/message/chat')">
             <div class="avatar on-line">
-              <img src="https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/ocAIgi1AeqDEzAFfJAHRCISiT53BACiSNRWA4s~tplv-dy-cropcenter:323:430.jpeg?biz_tag=pcweb_cover&from=327834062&s=PackSourceEnum_PUBLISH&sc=cover&se=true&sh=323_430&x-expires=2036505600&x-signature=drHOcM6qNCTDCxp9zVUrCx8skQs%3D" alt="" class="head-image" />
+              <img
+                src="https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/ocAIgi1AeqDEzAFfJAHRCISiT53BACiSNRWA4s~tplv-dy-cropcenter:323:430.jpeg?biz_tag=pcweb_cover&from=327834062&s=PackSourceEnum_PUBLISH&sc=cover&se=true&sh=323_430&x-expires=2036505600&x-signature=drHOcM6qNCTDCxp9zVUrCx8skQs%3D"
+                alt=""
+                class="head-image"
+              />
             </div>
             <div class="content">
               <div class="left">
@@ -99,20 +129,22 @@
                 <div class="detail">
                   新专辑的这个旋律怎么样?
                   <div class="point"></div>
-                  10-10
+                  07-17
                 </div>
               </div>
               <div class="right">
-                <!--                          <div class="not-read"></div>-->
-                <!--                          <img class="camera" src="../../assets/img/icon/close-white.png" alt="">-->
-                <!--            <img class="arrow" src="../../assets/img/icon/close-white.png" alt="">-->
-                <div class="badge">2</div>
+                <div class="badge">1</div>
               </div>
             </div>
           </div>
-                    <div class="message" @click="nav('/message/chat')">
+
+          <div class="message" @click="nav('/message/chat')">
             <div class="avatar on-line">
-              <img src="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_7af7a78eb38a07569467d7cc5b4ffcbb~c5_300x300.jpeg?from=2956013662" alt="" class="head-image" />
+              <img
+                src="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_7af7a78eb38a07569467d7cc5b4ffcbb~c5_300x300.jpeg?from=2956013662"
+                alt=""
+                class="head-image"
+              />
             </div>
             <div class="content">
               <div class="left">

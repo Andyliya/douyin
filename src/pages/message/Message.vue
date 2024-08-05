@@ -64,11 +64,11 @@
           </div>
           <!--      消息-->
 
-          <div class="message" @click="nav('/message/chat')">
+          
+<div class="message" @click="nav('/message/chat')">
             <div class="avatar on-line">
               <img
-                src="https://p3-pc.douyinpic.com/img/aweme-avatar/f5d59bdfb9352cfdb5eabddf5ca03bad~c5_300x300.jpeg?from=2956013662"
-                alt=""
+                src="https://p3-pc.douyinpic.com/img/aweme-avatar/f5d59bdfb9352cfdb5eabddf5ca03bad~c5_300x300.jpeg?from=2956013662" alt=""
                 class="head-image"
               />
             </div>
@@ -77,14 +77,23 @@
                 <div class="name">
                   <span>章若楠</span>
                 </div>
-                <div class="detail">这个确实很好吃</div>
-                <div class="right">
-                  <div class="badge">1</div>
+                <div class="detail">
+                  这个确实很好吃
+                  <div class="point"></div>
+                  07-18
                 </div>
+              </div>
+              <div class="right">
+                <!--                          <div class="not-read"></div>-->
+                <!--                          <img class="camera" src="../../assets/img/icon/close-white.png" alt="">-->
+                <!--            <img class="arrow" src="../../assets/img/icon/close-white.png" alt="">-->
+                <div class="badge">2</div>
               </div>
             </div>
           </div>
 
+
+          
           <div class="message" @click="nav('/message/chat')">
             <div class="avatar on-line">
               <img
@@ -127,7 +136,7 @@
                   <span>薛之谦</span>
                 </div>
                 <div class="detail">
-                  新专辑的这个旋律怎么样?
+                  明天发布我的新专辑
                   <div class="point"></div>
                   07-17
                 </div>
@@ -152,7 +161,7 @@
                   <span>白鹿my</span>
                 </div>
                 <div class="detail">
-                  这几天去杭州拍节目，可以带着你
+                  这几天在杭州拍节目
                   <div class="point"></div>
                   10-10
                 </div>
